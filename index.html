@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <footer>
+        <div class="background">
+            <!-- svg -->
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
+                <defs>
+                    <linearGradient id="bg">
+                        <stop offset="0%" style="stop-color: rgba(41, 70, 127, 0.06);">
+                        </stop>
+                        <stop offset="100%" style="stop-color: rgba(221, 34, 34, 0.6);">
+                        </stop>
+                    </linearGradient>
+                    <path id="wave" fill="url(#bg)"
+                        d="M-363.852,502.589c0,0,236.988-41.997,505.475,0s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+                </defs>
+                <g>
+                    <use xlink:href="#wave" opacity=".3">
+                        <animateTransform dur="10s" attributeName="transform" attributeType="XML" type="translate"
+                            calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1"
+                            keySplines="0.42, 0, 0.58, 1.0;0.42,0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                    <use xlink:href="#wave" opacity=".6">
+                        <animateTransform dur="8s" attributeName="transform" attributeType="XML" type="translate"
+                            calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1"
+                            keySplines="0.42, 0, 0.58, 1.0;0.42,0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                    <use xlink:href="#wave" opacity=".9">
+                        <animateTransform dur="6s" attributeName="transform" attributeType="XML" type="translate"
+                            calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1"
+                            keySplines="0.42, 0, 0.58, 1.0;0.42,0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                </g>
+            </svg>
+        </div>
+        <section>
+            <div class="socials">
+                <a href="https://instagram.com/ichsantrym?igshid=NGVhN2U2NjQ0Yg=="><i data-feather="instagram"></i></a>
+                <a href="https://www.facebook.com/ichsan.trymulya?mibextid=ZbWKwL"><i data-feather="facebook"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/ichsantrymulya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        data-feather="linkedin"></i></a>
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Skill</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="legal">&copy; 2023 All rights reserved</p>
+        </section>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
